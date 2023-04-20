@@ -1,5 +1,6 @@
 import "./App.css";
 import Circle from "./components/Circle";
+import Hands from "./components/Hands";
 import Spikes from "./components/Spikes";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
 
   const c = size / 2;
   const r = (size - 30) / 2;
+
+  const time = new Date();
 
   return (
     <svg
@@ -17,6 +20,7 @@ function App() {
     >
       <Circle cx={c} cy={c} r={r} className="clock" />
       <Spikes c={c} r={r} />
+      <Hands time={time} r={r} />
     </svg>
   );
 }
