@@ -4,6 +4,7 @@ import Circle from "./components/Circle";
 import Hands from "./components/Hands";
 import Spikes from "./components/Spikes";
 import Triangle from "./components/Triangel";
+import Digital from "./components/Digital";
 
 function App() {
   const size = 400;
@@ -30,6 +31,7 @@ function App() {
       <Spikes c={c} r={r} />
       <Triangle time={time} r={r} c={c} />
       <Hands time={time} r={r} c={c} />
+      <Digital time={time} c={c} />
     </svg>
   );
 }

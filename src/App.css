@@ -32,3 +32,9 @@ body{
 .triangle{
   fill: var(--red);
 }
+
+.digital{
+  fill: var(--white);
+  text-anchor: middle;
+  font-size: calc(var(--size) * 10);
+}
