@@ -1,5 +1,6 @@
 import "./App.css";
 import Circle from "./components/Circle";
+import Spikes from "./components/Spikes";
 
 function App() {
   const size = 400;
@@ -15,6 +16,7 @@ function App() {
       height={size}
     >
       <Circle cx={c} cy={c} r={r} className="clock" />
+      <Spikes c={c} r={r} />
     </svg>
   );
 }

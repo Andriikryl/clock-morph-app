@@ -17,3 +17,8 @@ body{
   stroke: var(--white);
   stroke-width: calc(var(--size) * 4);
 }
+
+.spike{
+  stroke: var(--white);
+  stroke-width: calc(var(--size) * 2);
+}
