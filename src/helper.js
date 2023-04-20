@@ -12,12 +12,12 @@ const getTimeParts = (t) => ({
 export const timePoints = (r, time) => {
   const { hour, minute, second } = getTimeParts(time);
 
-  const hourX = radianX(r - 20, (360 / 12) * hour);
-  const hourY = radianY(r - 20, (360 / 12) * hour);
-  const minuteX = radianX(r - 20, (360 / 60) * minute);
-  const minuteY = radianY(r - 20, (360 / 60) * minute);
-  const secondX = radianX(r - 20, (360 / 60) * second);
-  const secondY = radianY(r - 20, (360 / 60) * second);
+  const hourX = radianX(r - 30, (360 / 12) * hour);
+  const hourY = radianY(r - 30, (360 / 12) * hour);
+  const minuteX = radianX(r - 30, (360 / 60) * minute);
+  const minuteY = radianY(r - 30, (360 / 60) * minute);
+  const secondX = radianX(r - 30, (360 / 60) * second);
+  const secondY = radianY(r - 30, (360 / 60) * second);
 
   return { hourX, hourY, minuteX, secondY, minuteY, secondX };
 };

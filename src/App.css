@@ -22,3 +22,9 @@ body{
   stroke: var(--white);
   stroke-width: calc(var(--size) * 2);
 }
+
+.hands{
+  fill: var(--white);
+  stroke: var(--black);
+  stroke-width: calc(var(--size) * 1.4);
+}

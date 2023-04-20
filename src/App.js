@@ -20,7 +20,7 @@ function App() {
     >
       <Circle cx={c} cy={c} r={r} className="clock" />
       <Spikes c={c} r={r} />
-      <Hands time={time} r={r} />
+      <Hands time={time} r={r} c={c} />
     </svg>
   );
 }
