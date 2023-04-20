@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Circle from "./components/Circle";
 import Hands from "./components/Hands";
@@ -9,7 +10,13 @@ function App() {
   const c = size / 2;
   const r = (size - 30) / 2;
 
-  const time = new Date();
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    window.setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+  }, []);
 
   return (
     <svg
