@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clock-morph-app/static/css/main.578ccd98.css",
+    "main.js": "/clock-morph-app/static/js/main.373a2d28.js",
+    "index.html": "/clock-morph-app/index.html",
+    "main.578ccd98.css.map": "/clock-morph-app/static/css/main.578ccd98.css.map",
+    "main.373a2d28.js.map": "/clock-morph-app/static/js/main.373a2d28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.578ccd98.css",
+    "static/js/main.373a2d28.js"
+  ]
+}
