@@ -5,3 +5,15 @@
   --size: 3px;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #023047;
+}
+
+.clock{
+  fill: var(--black);
+  stroke: var(--white);
+  stroke-width: calc(var(--size) * 4);
+}

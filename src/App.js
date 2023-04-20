@@ -1,4 +1,5 @@
 import "./App.css";
+import Circle from "./components/Circle";
 
 function App() {
   const size = 400;
@@ -12,7 +13,9 @@ function App() {
       viewBox={`0 0 ${size} 400`}
       width={size}
       height={size}
-    ></svg>
+    >
+      <Circle cx={c} cy={c} r={r} className="clock" />
+    </svg>
   );
 }
 
