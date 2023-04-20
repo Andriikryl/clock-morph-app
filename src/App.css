@@ -28,3 +28,7 @@ body{
   stroke: var(--black);
   stroke-width: calc(var(--size) * 1.4);
 }
+
+.triangle{
+  fill: var(--red);
+}

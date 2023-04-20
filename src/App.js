@@ -3,6 +3,7 @@ import "./App.css";
 import Circle from "./components/Circle";
 import Hands from "./components/Hands";
 import Spikes from "./components/Spikes";
+import Triangle from "./components/Triangel";
 
 function App() {
   const size = 400;
@@ -27,6 +28,7 @@ function App() {
     >
       <Circle cx={c} cy={c} r={r} className="clock" />
       <Spikes c={c} r={r} />
+      <Triangle time={time} r={r} c={c} />
       <Hands time={time} r={r} c={c} />
     </svg>
   );
